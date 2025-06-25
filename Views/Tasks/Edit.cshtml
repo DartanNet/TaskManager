@@ -1,0 +1,19 @@
+@model TaskManager.Models.TaskItem
+@{
+    ViewData["Title"] = "Edit Task";
+}
+<h2>Edit Task</h2>
+<form asp-action="Edit" method="post">
+    @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="Id" />
+    <label>Title:</label>
+    <input asp-for="Title" />
+    <br />
+    <label>Description:</label>
+    <textarea asp-for="Description"></textarea>
+    <br />
+    <label>Completed:</label>
+    <input asp-for="IsCompleted" type="checkbox" />
+    <br />
+    <button type="submit">Save</button>
+</form>

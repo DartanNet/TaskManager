@@ -1,0 +1,26 @@
+@model List<TaskManager.Models.TaskItem>
+@{
+    ViewData["Title"] = "Task List";
+}
+<h2>Task List</h2>
+<a href="/Tasks/Create">Create New Task</a>
+<table>
+    <tr>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Status</th>
+        <th>Actions</th>
+    </tr>
+    @foreach (var task in Model)
+    {
+        <tr>
+            <td>@task.Title</td>
+            <td>@task.Description</td>
+            <td>@(task.IsCompleted ? "Done" : "Pending")</td>
+            <td>
+                <a asp-controller="Tasks" asp-action="Edit" asp-route-id="@task.Id">Edit</a> |
+                <a asp-controller="Tasks" asp-action="Delete" asp-route-id="@task.Id">Delete</a>
+            </td>
+        </tr>
+    }
+</table>
