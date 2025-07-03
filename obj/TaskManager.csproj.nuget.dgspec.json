@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\barto\\Downloads\\NET\\TaskManager.csproj": {}
+    "C:\\Users\\barto\\Downloads\\Nowy folder\\NET\\TaskManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\barto\\Downloads\\NET\\TaskManager.csproj": {
+    "C:\\Users\\barto\\Downloads\\Nowy folder\\NET\\TaskManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\barto\\Downloads\\NET\\TaskManager.csproj",
+        "projectUniqueName": "C:\\Users\\barto\\Downloads\\Nowy folder\\NET\\TaskManager.csproj",
         "projectName": "TaskManager",
-        "projectPath": "C:\\Users\\barto\\Downloads\\NET\\TaskManager.csproj",
+        "projectPath": "C:\\Users\\barto\\Downloads\\Nowy folder\\NET\\TaskManager.csproj",
         "packagesPath": "C:\\Users\\barto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\barto\\Downloads\\NET\\obj\\",
+        "outputPath": "C:\\Users\\barto\\Downloads\\Nowy folder\\NET\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\barto\\AppData\\Roaming\\NuGet\\NuGet.Config"

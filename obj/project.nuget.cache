@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GTCXGCXo65w=",
+  "dgSpecHash": "pAWSIByHieQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\barto\\Downloads\\NET\\TaskManager.csproj",
+  "projectFilePath": "C:\\Users\\barto\\Downloads\\Nowy folder\\NET\\TaskManager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\barto\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\barto\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.0\\microsoft.data.sqlite.core.7.0.0.nupkg.sha512",
